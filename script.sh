@@ -8,7 +8,7 @@ mkdir $HOME/docker
 
 touch $HOME/docker/Dockerfile
 
-cat <<ENDL > /home/ubuntu/docker/Dockerfile
+cat <<ENDL > $HOME/docker/Dockerfile
 FROM python:3.8
 
 RUN apt update
